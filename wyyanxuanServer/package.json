@@ -1,0 +1,12 @@
+{
+  "name": "wyyanxuanServer",
+  "version": "1.0.0",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+  	"start": "nodemon server.js"
+  }
+}

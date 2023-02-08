@@ -1,0 +1,81 @@
+.recommendContainer .banners {
+  width: 100%;
+  height: 350rpx;
+}
+.recommendContainer .banners .swiperImg {
+  width: 100%;
+  height: 350rpx;
+}
+.recommendContainer .policyList {
+  display: flex;
+}
+.recommendContainer .policyList .policyItem {
+  flex: 1;
+  text-align: center;
+}
+.recommendContainer .policyList .policyItem .policyImg {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+.recommendContainer .policyList .policyItem .content {
+  font-size: 24rpx;
+  vertical-align: middle;
+}
+.recommendContainer .kingKongList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recommendContainer .kingKongList .kingKongItem {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recommendContainer .kingKongList .kingKongItem .kingImage {
+  width: 110rpx;
+  height: 110rpx;
+  margin: 20rpx 0;
+}
+.recommendContainer .kingKongList .kingKongItem .kingContent {
+  font-size: 26rpx;
+}
+.recommendContainer .categoryModuleContainer .categoryItem {
+  margin-bottom: 20rpx;
+}
+.recommendContainer .categoryModuleContainer .categoryItem .titlePic {
+  width: 100%;
+  height: 370rpx;
+}
+.recommendContainer .categoryModuleContainer .categoryItem .shopListScroll {
+  white-space: nowrap;
+}
+.recommendContainer .categoryModuleContainer .categoryItem .shopListScroll .shopItem {
+  width: 200rpx;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20rpx;
+}
+.recommendContainer .categoryModuleContainer .categoryItem .shopListScroll .shopItem.more {
+  width: 200rpx;
+  height: 200rpx;
+  background: #eee;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 200rpx;
+}
+.recommendContainer .categoryModuleContainer .categoryItem .shopListScroll .shopItem .shopImg {
+  width: 200rpx;
+  height: 200rpx;
+  background: #eee;
+}
+.recommendContainer .categoryModuleContainer .categoryItem .shopListScroll .shopItem .shopInfo {
+  font-size: 26rpx;
+  white-space: pre-wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
